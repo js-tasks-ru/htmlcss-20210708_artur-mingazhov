@@ -1,0 +1,52 @@
+.skeleton {
+   width: 50vw;
+   padding: 24px 40px 32px 24px;
+   background: var(--white);
+   border: 1px solid var(--grey-3);
+   box-sizing: border-box;
+   border-radius: 8px;
+}
+.skeleton__top {
+   display: flex;
+   justify-content: space-between;
+}
+.skeleton__circle {
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   background: var(--grey-2);
+   flex: 1 0 auto;
+}
+.skeleton__lines {
+   display: flex;
+   flex-direction: column;
+   padding-left: 16px;
+   width: 100%;
+}
+.skeleton__line {
+   margin-top: 8px;
+}
+
+.skeleton__line_s {
+   width: 40%;
+}
+.skeleton__line_m {
+   width: 60%;
+}
+.skeleton__bottom {
+   padding-top: 16px;
+}
+
+/*=======================================================================*/
+
+.loading-line {
+   height: var(--loading-line-height);
+   background: linear-gradient(
+      92.51deg,
+      var(--loading-line-color-1) 6.44%,
+      var(--loading-line-color-2) 38.47%,
+      var(--loading-line-color-3) 56.48%,
+      var(--loading-line-color-4) 77.5%,
+      var(--loading-line-color-1) 102.52%
+   );
+}

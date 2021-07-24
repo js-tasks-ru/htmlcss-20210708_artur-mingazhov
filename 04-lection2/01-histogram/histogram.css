@@ -36,10 +36,10 @@
    color: var(--black);
 }
 .histogram__body {
-   height: var(--max-column-height);
+   height: 50px;
    display: flex;
    align-items: flex-end;
-   padding: 39px 0px 0px 0px;
+   margin-top: 39px;
 }
 .histogram__column {
    flex: 1 0 auto;

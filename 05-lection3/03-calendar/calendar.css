@@ -13,12 +13,12 @@
    font-size: 20px;
    line-height: 24px;
    text-align: center;
-   color: #334d6e;
+   color: var(--calendar-item);
 }
 .calendar__body {
    display: grid;
    grid-template-columns: repeat(7, 1fr);
-   padding-top: 24px;
+   margin-top: 24px;
 }
 .calendar__item {
    font-family: Source Sans Pro;
@@ -28,7 +28,7 @@
    line-height: 20px;
    padding: calc((100% - 20px) / 2) 0px;
    text-align: center;
-   color: #334d6e;
+   color: var(--calendar-item);
 }
 .calendar__item_day {
    font-family: Inter;
@@ -37,13 +37,12 @@
    font-size: 14px;
    line-height: 20px;
    text-align: center;
-   color: #90a0b7;
+   color: var(--calendar-item-day);
 }
 .calendar__item_active {
-   background: #4263eb;
-   color: #fff;
+   background: var(--calendar-item-active);
+   color: var(--white);
 }
 .calendar__item_between-active {
-   background: #a0b1f5;
-   color: #334d6e;
+   background: var(--calendar-item-between-active);
 }

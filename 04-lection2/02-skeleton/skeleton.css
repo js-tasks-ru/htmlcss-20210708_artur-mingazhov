@@ -25,6 +25,15 @@
 }
 .skeleton__line {
    margin-top: 8px;
+   height: var(--loading-line-height);
+   background: linear-gradient(
+      92.51deg,
+      var(--loading-line-color-1) 6.44%,
+      var(--loading-line-color-2) 38.47%,
+      var(--loading-line-color-3) 56.48%,
+      var(--loading-line-color-4) 77.5%,
+      var(--loading-line-color-1) 102.52%
+   );
 }
 
 .skeleton__line_s {
@@ -35,18 +44,4 @@
 }
 .skeleton__bottom {
    padding-top: 16px;
-}
-
-/*=======================================================================*/
-
-.loading-line {
-   height: var(--loading-line-height);
-   background: linear-gradient(
-      92.51deg,
-      var(--loading-line-color-1) 6.44%,
-      var(--loading-line-color-2) 38.47%,
-      var(--loading-line-color-3) 56.48%,
-      var(--loading-line-color-4) 77.5%,
-      var(--loading-line-color-1) 102.52%
-   );
 }

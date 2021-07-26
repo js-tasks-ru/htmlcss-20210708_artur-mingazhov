@@ -1,19 +1,14 @@
-body,
-html {
-   height: 100%;
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-   align-items: center;
-   padding-top: 50px;
-}
-
 .tooltip {
+   height: 24px;
+   width: 24px;
    display: inline-block;
    position: relative;
 }
 .tooltip__trigger {
+   width: 100%;
+   height: 100%;
    display: inline-block;
+   color: var(--black);
 }
 .tooltip__content {
    display: none;

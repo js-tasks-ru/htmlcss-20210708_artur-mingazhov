@@ -1,7 +1,9 @@
 .accordion__summary::-webkit-details-marker {
    display: none;
 }
+
 .accordion__summary {
+   position: relative;
    display: block;
    font-family: Inter;
    font-style: normal;
@@ -9,6 +11,7 @@
    font-size: 16px;
    line-height: 24px;
    color: var(--black);
+   cursor: pointer;
 }
 
 .accordion__item {
@@ -22,6 +25,7 @@
 .accordion__item:last-child {
    margin-bottom: 0;
 }
+
 .accordion__text {
    font-family: Inter;
    font-style: normal;
@@ -30,4 +34,17 @@
    line-height: 24px;
    color: var(--grey-4);
    margin: 16px 0px 8px;
+}
+
+.accordion__array {
+   position: absolute;
+   width: 16px;
+   height: 8px;
+   right: 0px;
+   top: 0px;
+   color: var(--grey-4);
+}
+
+.accordion__item[open] .accordion__array {
+   transform: rotate(180deg);
 }
